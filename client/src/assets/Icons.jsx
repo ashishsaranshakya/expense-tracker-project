@@ -1,0 +1,14 @@
+export const dashboard = <i className="fa-solid fa-chart-line"></i>
+export const transactions = <i className="fa-solid fa-credit-card"></i>
+export const trend = <i className="fa-solid fa-money-bill-trend-up"></i>
+export const expenses = <i className="fa-solid fa-money-bill-transfer"></i>
+export const logout = <i className="fa-solid fa-right-from-bracket"></i>
+export const login = <i class="fa-solid fa-right-to-bracket"></i>
+export const edit = <i class="fa-solid fa-pen-to-square"></i>
+export const tick = <i class="fa-solid fa-check"></i>
+export const cross = <i class="fa-solid fa-xmark"></i>
+export const bill = <i class="fa-solid fa-money-bill"></i>
+export const trash = <i class="fa-solid fa-trash"></i>
+export const calender = <i class="fa-solid fa-calendar"></i>
+export const category = <i class="fa-solid fa-grip"></i>
+export const plus = <i class="fa-solid fa-plus"></i>
