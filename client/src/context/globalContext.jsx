@@ -77,45 +77,9 @@ export const GlobalProvider = ({children}) => {
     }
 
     const deleteCategory = async (id, type) => {
-        // if (type === 'expense') {
-        //     await axios.delete(`${BASE_URL}user/categories/expense/${id}`)
-        //         .then((res) => {
-        //             getCategories();
-        //         })
-        //         .catch((err) => {
-        //             setError(err.response.data.error)
-        //         });
-        // }
-        // else {
-        //     await axios.delete(`${BASE_URL}user/categories/income/${id}`)
-        //         .then((res) => {
-        //             getCategories();
-        //         })
-        //         .catch((err) => {
-        //             setError(err.response.data.error)
-        //         });
-        // }
     }
 
     const addCategory = async (category, type) => {
-        // if (type === 'expense') {
-        //     await axios.post(`${BASE_URL}user/categories/expense`, { name: category })
-        //         .then((res) => {
-        //             getCategories();
-        //         })
-        //         .catch((err) => {
-        //             setError(err.response.data.error)
-        //         });
-        // }
-        // else {
-        //     await axios.post(`${BASE_URL}user/categories/income`, { name: category })
-        //         .then((res) => {
-        //             getCategories();
-        //         })
-        //         .catch((err) => {
-        //             setError(err.response.data.error)
-        //         });
-        // }
     }
 
     // calculate incomes
@@ -144,14 +108,6 @@ export const GlobalProvider = ({children}) => {
     }
 
     const deleteIncome = async (id) => {
-        // await axios.delete(`${BASE_URL}incomes/${id}`)
-        //     .then((res) => {
-        //         getProfile();
-        //         getIncomes();
-        //     })
-        //     .catch((err) => {
-        //         setError(err.response.data.error)
-        //     });
     }
 
     const totalIncome = () => {
@@ -190,14 +146,6 @@ export const GlobalProvider = ({children}) => {
     }
 
     const deleteExpense = async (id) => {
-        // await axios.delete(`${BASE_URL}expenses/${id}`)
-        //     .then((res) => {
-        //         getProfile();
-        //         getExpenses();
-        //     })
-        //     .catch((err) => {
-        //         setError(err.response.data.error)
-        //     });
     }
 
     const totalExpenses = () => {
@@ -228,12 +176,6 @@ export const GlobalProvider = ({children}) => {
 
     // update item
     const updateItem = async (id, data, type) => {
-        // if (type === 'expense') {
-        //     updateExpense(id, data)
-        // }
-        // else {
-        //     updateIncome(id, data)
-        // }
     }
 
     const updateExpense = async (id, data) => {
